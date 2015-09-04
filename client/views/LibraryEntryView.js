@@ -13,6 +13,9 @@ var LibraryEntryView = Backbone.View.extend({
                         <td> \
                           <button class="play mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Play</button> \
                           <button class="enqueue mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Enqueue</button> \
+                          <button class="playlist mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"> \
+                            <i class="material-icons">add</i> \
+                          </button> \
                         </td>'),
 
   events: {
